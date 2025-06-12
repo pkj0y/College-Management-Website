@@ -9,7 +9,7 @@
         }
 
         .container {
-            margin-top: 50px;
+            margin-top: 51px;
             background-color: #fff;
             padding: 40px;
             border-radius: 10px;
