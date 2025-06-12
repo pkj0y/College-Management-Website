@@ -9,7 +9,7 @@
         }
 
         .container {
-            margin-top: 51px;
+            margin-top: 50px;
             background-color: #fff;
             padding: 40px;
             border-radius: 10px;
@@ -94,7 +94,7 @@
 
     <form action="courseListdb.jsp" method="POST">
         <div class="form-group">
-            <label for="courseName">Course Name</label>
+            <label for="courseName">Course</label>
             <input type="text" id="courseName" name="courseName" required>
         </div>
 
