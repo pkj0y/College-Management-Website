@@ -1,0 +1,62 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    
+    /* Set Background Image */
+    background-image: url('ramyacollege.jpeg'); /* Replace with your image path */
+    background-size: cover; /* Ensure the image covers the whole body */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 64, 128, 0.8); /* Semi-transparent header background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0066cc;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #004d99;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    width: 10%;
+}
