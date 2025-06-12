@@ -94,7 +94,7 @@
 
     <form action="courseListdb.jsp" method="POST">
         <div class="form-group">
-            <label for="courseName">Course</label>
+            <label for="courseName">Course Name</label>
             <input type="text" id="courseName" name="courseName" required>
         </div>
 
